@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>MEME MAKER</title>
+    <script src="http://s.codepen.io/assets/libs/modernizr.js" type="text/javascript"></script>
+
+
+    
+    
+    
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <div class= "container">
+  <h1>CREATE YOUR OWN MEME</h1>
+  <p>Upload an image, type in some lines and save</p>
+    <input type="file" id="file" />  
+  </div>
+  <div id="image-container">
+    <canvas width="500" height="500"></canvas>
+    <div class = "inputs">
+      <br/>
+      <input id="topLineText" type="text" placeholder="TOP LINE"><br/>
+      <br/>
+      <input id="bottomLineText" type="text" placeholder="BOTTOM LINE"><br/>
+      <button id="saveBtn">Save</button>
+    </div>
+  </div>
+    
+        <script src="js/index.js"></script>
+
+<script src='http://fabricjs.com/build/files/text,gestures,easing,parser,freedrawing,interaction,serialization,image_filters,gradient,pattern,shadow,node.min.js'></script>
+    
+    
+    
+  </body>
+</html>
